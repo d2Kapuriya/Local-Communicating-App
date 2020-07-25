@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Local Communicating App For Charusat",
+    "slug": "Local_Communicating_App",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "com.d2.localcommunicatingapp",
+      "versionCode": 1,
+      "config":{
+        "googleMaps":{
+          "apiKey":"Write your API key"
+        },
+        "googleSignIn":{
+          "apiKey":"Write your API key",
+          "certificateHash":"Write your certificate hash"
+        }
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.d2.localcommunicatingapp",
+      "buildNumber": "1.0.0"      
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon2.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
